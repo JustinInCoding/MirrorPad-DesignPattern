@@ -55,4 +55,11 @@ public class ViewController: UIViewController {
   public override var preferredScreenEdgesDeferringSystemGestures: UIRectEdge {
     return .top
   }
+	
+	public override func viewDidLoad() {
+		super.viewDidLoad()
+		mirrorDrawViews.forEach {
+			inputDrawView.addDelegate($0)
+		}
+	}
 }

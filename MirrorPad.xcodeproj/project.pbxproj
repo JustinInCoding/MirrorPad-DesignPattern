@@ -20,6 +20,7 @@
 		9861D9F82BBBAAF200773C5C /* ClearState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9F72BBBAAF200773C5C /* ClearState.swift */; };
 		9861D9FA2BBBAB0500773C5C /* CopyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9F92BBBAB0500773C5C /* CopyState.swift */; };
 		9861D9FC2BBBAB1800773C5C /* DrawViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9FB2BBBAB1800773C5C /* DrawViewState.swift */; };
+		9861DA082BBBBFAB00773C5C /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861DA072BBBBFAB00773C5C /* MulticastDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9861D9F72BBBAAF200773C5C /* ClearState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearState.swift; sourceTree = "<group>"; };
 		9861D9F92BBBAB0500773C5C /* CopyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyState.swift; sourceTree = "<group>"; };
 		9861D9FB2BBBAB1800773C5C /* DrawViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewState.swift; sourceTree = "<group>"; };
+		9861DA072BBBBFAB00773C5C /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4245EC792074415400E347D0 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				9861DA072BBBBFAB00773C5C /* MulticastDelegate.swift */,
 				9861D9EF2BBB9ACD00773C5C /* Copying.swift */,
 			);
 			path = Protocols;
@@ -235,6 +238,7 @@
 				9861D9F82BBBAAF200773C5C /* ClearState.swift in Sources */,
 				9861D9F02BBB9ACD00773C5C /* Copying.swift in Sources */,
 				42F35C3620449C9A00584FAD /* AppDelegate.swift in Sources */,
+				9861DA082BBBBFAB00773C5C /* MulticastDelegate.swift in Sources */,
 				9861D9F42BBBAAC900773C5C /* AcceptInputState.swift in Sources */,
 				424387E420449D300056B653 /* DrawView.swift in Sources */,
 			);
